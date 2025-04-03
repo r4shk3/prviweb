@@ -1,0 +1,11 @@
+@model IEnumerable<MvcMovie.Models.Movie>
+
+@{
+    ViewData["Title"] = "Web višeslojno programiranje";
+}
+
+<div>
+    <h1>A web application to track movie rental expenses</h1>
+    <p>If you want to access the movie list, click on <a asp-controller="Movies" asp-action="Index">Movies</a>.</p>
+    <p>In any case, you shouldn't miss <a asp-controller="Home" asp-action="Privacy">the Privacy Policy</a>, so make sure to check it out.</p>
+</div>

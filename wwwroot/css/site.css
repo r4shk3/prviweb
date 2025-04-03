@@ -1,0 +1,88 @@
+body {
+  background: url('/images/cinema-background.jpg') no-repeat center center fixed;
+  background-size: cover; /* Slika će pokriti cijelu pozadinu */
+  color: #f8f9fa; /* Bijela boja teksta za bolju čitljivost */
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.7); /* Poluprozirna crna pozadina za navigaciju */
+  padding: 10px 0;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.8); /* Poluprozirna crna pozadina za footer */
+  color: #ffffff;
+}
+
+.container, h1, p {
+  background-color: rgba(0, 0, 0, 0.7); /* Poluprozirna crna pozadina */
+  color: #f8f9fa; /* Svijetlo siva boja za tekst */
+  border-radius: 10px; /* Zaobljeni rubovi */
+  padding: 20px; /* Unutarnji razmak */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Blaga sjena */
+}
+a {
+  color: #ffc107; /* Zlatna boja za linkove */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffdd57; /* Svjetlija zlatna boja za hover efekt */
+  text-decoration: underline;
+}
+footer {
+  background-color: rgba(0, 0, 0, 0.7); /* Poluprozirna crna pozadina */
+  color: #ffffff; /* Bijela boja za tekst */
+  position: fixed; /* Fiksiraj footer na dnu stranice */
+  bottom: 0; /* Postavi na dno */
+  width: 100%; /* Širina footera da pokrije cijelu stranicu */
+  z-index: 1000; /* Osiguraj da je footer iznad ostalih elemenata */
+  padding: 10px 0; /* Dodaj malo prostora unutar footera */
+  text-align: center; /* Centriraj tekst */
+}
+
+footer a {
+  color: #ffc107; /* Zlatna boja za linkove */
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+.table-dark {
+  background-color: rgba(0, 0, 0, 0.8); /* Poluprozirna crna pozadina za tablicu */
+  color: #f8f9fa; /* Svijetlo siva boja za tekst */
+}
+
+.table-dark th {
+  color: #ffc107; /* Zlatna boja za zaglavlja tablice */
+  font-weight: bold;
+}
+
+.table-dark tbody tr:hover {
+  background-color: rgba(255, 255, 255, 0.1); /* Blago svijetla pozadina na hover */
+}
+
+.btn {
+  border-radius: 5px; /* Zaobljeni rubovi za gumbe */
+}
+
+.btn-primary {
+  background-color: #007bff; /* Plava boja za gumb "Uredi" */
+  border-color: #007bff;
+}
+
+.btn-info {
+  background-color: #17a2b8; /* Svijetloplava boja za gumb "Detalji" */
+  border-color: #17a2b8;
+}
+
+.btn-danger {
+  background-color: #dc3545; /* Crvena boja za gumb "Izbriši" */
+  border-color: #dc3545;
+}
+
+.btn-warning {
+  background-color: #ffc107; /* Zlatna boja za gumb "Kreiraj novi" */
+  border-color: #ffc107;
+  color: #000; /* Crna boja za tekst */
+}
